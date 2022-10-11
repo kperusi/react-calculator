@@ -1,0 +1,154 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Rubik:ital@1&display=swap'); */
+/* h1,
+p {
+  font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Rubik';
+  font-size: 1.1em;
+}
+.container {
+  width: 300px;
+  max-width: 100%;
+  min-height: 100px;
+  margin: 20px auto;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding-bottom: 10px;
+  box-shadow: 0 8px 10px hsla(0, 0%, 0%, 0.2);
+}
+.logo {
+  background-color: black;
+  background-image: url('./mono-math-int.svg');
+  color: gray;
+  margin-top: 0;
+  margin-bottom: -10px;
+  background-repeat: no-repeat;
+  text-align: right;
+  background-position: left;
+  background-size: 30px 20px;
+  padding: 5px;
+}
+
+.screen {
+  width: 100%;
+  background-color: black;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  color: white;
+}
+.screen1 {
+  margin-top: 5px;
+  font-size: 0.7em;
+  color: white;
+  margin-left: 3px;
+  text-align: left;
+  /* font-size: 30px; */
+  border-width: 0;
+  outline: none;
+  background-color: black;
+}
+.screen2 {
+  background-color: black;
+  margin-top: 0px;
+  text-align: right;
+  font-size: 30px;
+  outline: none;
+  border-width: 0;
+  color: white;
+}
+
+.menu {
+  height: 40px;
+  width: 50px;
+  font-weight: 500;
+  border-color: gainsboro;
+  border-width: 1px;
+  border-style: solid;
+  outline: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.menu:hover {
+  background-color: aqua;
+}
+.special {
+  height: 40px;
+  width: 50px;
+  font-weight: 700;
+  border-color: gainsboro;
+  border-width: 1px;
+  border-style: solid;
+  outline: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.special:hover {
+  background-color: red;
+}
+
+.numbers {
+  font-weight: 500;
+  width: 62px;
+  height: 50px;
+  border: none;
+  font-size: large;
+  outline: none;
+  background-color: gainsboro;
+  border-radius: 4px;
+  font-family: 'Rubik';
+}
+
+.container div {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.numbers:hover {
+  background-color: gray;
+}
+.sign:hover {
+  background-color: red;
+}
+.sign {
+  border-radius: 4px;
+  background-color: rgb(169, 171, 173);
+  border: 1px solid rgb(176, 174, 174);
+}
+.equalto {
+  width: 45vw;
+  border-radius: 4px;
+}
+.plusminus {
+  border-radius: 4px;
+}
+
+.root {
+  background-image: url('./square-root.svg');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: center;
+}
+.square {
+  background-image: url('./1772624_math_mathematics_square_square sign_x square_icon.svg');
+  background-repeat: no-repeat;
+  background-size: 15px 13px;
+  background-position: center;
+}
